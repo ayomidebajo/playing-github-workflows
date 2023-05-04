@@ -32,8 +32,6 @@ jobs:
   
   ismp-testsuite: 
     runs-on: ubuntu-latest
-    workspace:
-      path: ismp-testsuite
     steps: 
       - name: Checkout sources
         uses: actions/checkout@v3
